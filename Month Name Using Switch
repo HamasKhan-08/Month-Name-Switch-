@@ -1,0 +1,73 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int m;
+    cout << " Please Enter The Month Number For Which You Would Like To See The Days " << endl;
+    cin >> m;
+    switch (m)
+    {
+    case 1:
+    {
+        cout << " This month is january and has 31 days" << endl;
+        break;
+    }
+    case 2:
+    {
+        cout << " This month is february and has 28 days and if it is leap year it has 29 days " << endl;
+        break;
+    }
+    case 3:
+    {
+        cout << " This month is march and has 31 days " << endl;
+        break;
+    }
+    case 4:
+    {
+        cout << " This month is april and has 30 days " << endl;
+        break;
+    }
+    case 5:
+    {
+        cout << " This month is may and has 31 days " << endl;
+    break;
+    }
+    case 6:
+    { 
+        cout << " This month is june and has 30 days " << endl;
+        break;
+    }
+    case 7:
+    {
+        cout << " This month js july and has 31 days " << endl;
+        break;
+    }
+    case 8:
+    {
+        cout << " This month is august and has 31 days " << endl;
+        break;
+    }
+    case 9:
+    {
+        cout << " This month is september and has 30 days " << endl;
+        break;
+    }
+    case 10:
+    {
+        cout << " This month is october and has 31 days " << endl;
+        break;
+    }
+    case 11:
+    {
+        cout << " This month is november and has 30 days " << endl;
+        break;
+    }
+    case 12:
+    {  
+        cout << " This month is december and 31 days " << endl;
+        break;
+    }
+    }
+}
